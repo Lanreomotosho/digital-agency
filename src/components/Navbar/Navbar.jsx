@@ -54,6 +54,7 @@ const Navbar = () => {
                 );
                 })}
                 <button className='btn-primary'>Get in Touch</button>
+                <DarkMode />
     </ul>
 </div>
             </div>
