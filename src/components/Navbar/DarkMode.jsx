@@ -2,8 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { BiSolidSun, BiiSolidMoon } from "react-icons/bi";
 
 const DarkMode = () => {
+    const [theme, setTheme]
   return (
-    <div>DarkMode</div>
+    <div>
+        <BiSolidSun />
+        <BiSolidSun />
+
+    </div>
   )
 }
 
