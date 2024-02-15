@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from "../../assets/website/Logo.svg";
+import DarkMode from './DarkMode';
 
 
 
@@ -54,7 +55,7 @@ const Navbar = () => {
                 );
                 })}
                 <button className='btn-primary'>Get in Touch</button>
-                <DarkMode />
+            <DarkMode />
     </ul>
 </div>
             </div>
@@ -65,3 +66,5 @@ const Navbar = () => {
 }
 
 export default Navbar;
+
+
