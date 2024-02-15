@@ -28,7 +28,7 @@ const MenuLinks = [
 const Navbar = () => {
   return (
     <>
-    <nav>
+    <nav className='bg-white dark:bg-black dark:text-white duration-300'>
         <div className="container py-3 md:py-2" >
             <div className='flex justify-between 
             items-center'>
@@ -58,6 +58,7 @@ const Navbar = () => {
             <DarkMode />
     </ul>
 </div>
+  {/* Mobile View */}
             </div>
         </div>
     </nav>
