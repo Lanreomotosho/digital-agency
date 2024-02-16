@@ -14,14 +14,14 @@ const DarkMode = () => {
       if (theme === "dark") {
         element.classList.add("dark");
     } else {
-      element.classList.add("light");
-      element.classList.add("dark");
+      element.classList.remove("light");
+      element.classList.remove("dark");
     }
   });
   return  <>{theme === "dark" ? ( <BiSolidSun  onClick={() => seTheme("light")}
    className="text-2xl"/> 
-  )
-  : (<BiSolidMoon onClick={() => seTheme("dark")}
+  ): 
+  (<BiSolidMoon onClick={() => seTheme("dark")}
   className="text-2xl"/> )}
     </>;
 };
