@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from "../../assets/website/Logo.svg";
 import DarkMode from './DarkMode';
+import ResponsiveMenu from './ResponsiveMenu';
 import {  HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 
 
@@ -62,8 +63,9 @@ const Navbar = () => {
 </div>
 
   {/* Mobile View */}
-            <div className='flex items-center gap-4 md:hidden' >
+            <div className='flex items-center gap-4'>
             <DarkMode />
+            <ResponsiveMenu />
             {showMenu ? (
                     <HiMenuAlt1 onClick={toggleMenu}
                     className="cursor-pointer text-2xl" />
@@ -74,6 +76,8 @@ const Navbar = () => {
             </div>
             </div>
         </div>
+        {/* Mobile Menu section */}
+        <ResponsiveMenu showMenu={showMenu} toggleMenu= {toggleMenu} />
     </nav>
     </>
   )
