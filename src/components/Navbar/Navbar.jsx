@@ -5,7 +5,8 @@ import ResponsiveMenu from './ResponsiveMenu';
 import {  HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 
 
-const MenuLinks = [
+
+export const MenuLinks = [
     {
         id: 1,
         name: "About",

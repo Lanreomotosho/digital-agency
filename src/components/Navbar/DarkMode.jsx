@@ -20,8 +20,7 @@ const DarkMode = () => {
   });
   return  <>{theme === "dark" ? ( <BiSolidSun  onClick={() => seTheme("light")}
    className="text-2xl"/> 
-  ): 
-  (<BiSolidMoon onClick={() => seTheme("dark")}
+  ): (<BiSolidMoon onClick={() => seTheme("dark")}
   className="text-2xl"/> )}
     </>;
 };
