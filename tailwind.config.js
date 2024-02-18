@@ -1,4 +1,4 @@
-import DarkMode from './src/components/Navbar/DarkMode';
+import DarkMode from './src/components/DarkMode/DarkMode';
 
 /** @type {import('tailwindcss').Config} */
 export default {

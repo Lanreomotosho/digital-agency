@@ -18,9 +18,12 @@ const DarkMode = () => {
       element.classList.remove("dark");
     }
   });
-  return  <>{theme === "dark" ? ( <BiSolidSun  onClick={() => seTheme("light")}
-   className="text-2xl"/> 
-  ): (<BiSolidMoon onClick={() => seTheme("dark")}
+  return  <>
+  {theme === "dark" ? (
+     <BiSolidSun  onClick={() => seTheme("light")}
+   className="text-2xl" />
+  ):
+  (<BiSolidMoon onClick={() => seTheme("dark")}
   className="text-2xl"/> )}
     </>;
 };

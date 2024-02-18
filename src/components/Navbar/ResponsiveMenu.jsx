@@ -37,7 +37,7 @@ const ResponsiveMenu = ({ showMenu }) => {
                   {/* footer section */}
                   <div>
                     <h1>
-                        Designed by Lanre Omotosho <a href="https://github.com/Lanreomotosho">Dilshad</a>{""}</h1>
+                         <a href="https://github.com/Lanreomotosho">Designed by Lanre Omotosho</a>{""}</h1>
                   </div>
                 </div>
                 </div>

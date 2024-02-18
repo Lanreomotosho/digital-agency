@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 
@@ -50,10 +50,10 @@ const ResoursesLink = [
         link:"/#blogs",
     },
 
-]
+];
 
 const Footer = () => {
-  return
+  return (
     <>
     <div className='bg-black/95 text-white'>
         <div className='container'>
@@ -146,13 +146,13 @@ col-span-2 md:pl-10'>
                     ))}
             </ul>
         </div>
-    </div>
-</div>
+              </div>
+             </div>
             </div>
         </div>
     </div>
     </>
-
-}
+  );
+};
 
 export default Footer;
