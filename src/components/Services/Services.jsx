@@ -66,8 +66,11 @@ xl:grid-cols-4 gap-4'>
     ))}
 </div>
 {/* button section */}
-            </div>
-        </div>
+<div className='text-center mt-4 sm:mt-8'>
+<button className='btn-primary'>Learn More</button>
+</div>
+ </div>
+ </div>
 };
 
 export default Services;
