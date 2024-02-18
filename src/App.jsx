@@ -5,6 +5,8 @@ import BrandLogo from './components/BrandLogo/BrandLogo';
 import Services from './components/Services/Services';
 import Testimonies from './components/Testimonials/Testimonials';
 import BlogsComp from './components/BlogsComp/BlogsComp';
+import BlogCard from './components/BlogCard/BlogCard';
+import Footer from './components/Footer/Footer';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -19,6 +21,8 @@ duration-300">
     <Services />
     <Testimonies />
     <BlogsComp />
+    <BlogCard />
+    <Footer />
   </div>
   );
 };
