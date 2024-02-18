@@ -1,5 +1,9 @@
 import React from 'react';
-import Img1 from 'assets/Img1';
+import BlogCard from "./BlogsComp";
+import Img1 from "../../assets/blog/blog1.png";
+import Img2 from "../../assets/blog/blog2.png";
+import Img3 from "../../assets/blog/blog3.png";
+
 
 
 const BlogsData = [
@@ -43,11 +47,9 @@ const BlogsComp = () => {
             <h1 className='my-8 border-l-8 border-primary/50 py-2 pl-2
             text=3xl font-semibold'>Our Blogs</h1>
             {/* Blogs card */}
-            {
-                BlogsData.map((blog) => (
-                    <BlogCard key={blog.id} blog={blog} />
-                ))
-            }
+            {BlogsData.map((blog) => (
+                    <BlogCard key={blog.id} {...blog} />
+                ))}
         </div>
         </div>
     </>
