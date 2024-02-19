@@ -1,9 +1,12 @@
 import React from 'react'
 import { FaArrowRight } from 'react-icons/fa6';
 
-const BlogCard = ({ image, title, description }) => {
+const BlogCard = ({ image, title, description,aosDelay }) => {
   return  <>
-  <div className='dark:text-white group'>
+  <div 
+  data-aos="fade-up"
+  data-aos-delay={aosDelay}
+  className='dark:text-white group'>
     <div className='overflow-hidden'>
     <img
     src={image}

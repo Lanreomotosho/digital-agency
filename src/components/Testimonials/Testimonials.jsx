@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 
 
 
-const TestimonialData = [
+const testimonialData = [
     {
         id: 1,
         name: "David James - Directior of Design Operation, New York",
@@ -27,6 +27,7 @@ const TestimonialData = [
 const Testimonials = () => {
   const settings = {
             dots: true,
+            arrows: false,
             infinite: true,
             speed: 500,
             slidesToShow: 1,
@@ -39,13 +40,13 @@ const Testimonials = () => {
     };
     return (
         <>
-    <div className='py-10 dark:text-white'>
+    <div data-aos="fade-up" className='py-10 dark:text-white'>
         <div className="container">
             {/* testimonial section*/}
             <div className='grid grid-cols-1 max-w-screen-xl
             mx-auto gap-6'>
                 <Slider { ...settings}>
-                {TestimonialData.map(({ id, name, text, img }) => (
+                {testimonialData.map(({ id, name, text, img }) => (
                         <div key={id} className='my-6'>
                             <div className='flex flex-col sm:flex-row
                             gap-5 md:gap-14 p-4 mx-4 rounded-xl
@@ -56,7 +57,6 @@ const Testimonials = () => {
                                 className='block mx-auto h-[300px] w-full
                                 sm:w-[200px] object-cover'
                                  />
-                            </div>
                             <div className='space-y-4'>
                                 <p className='text-gray-500 text-black/80
                                 dark:text-white/80 xl:pr-40'>
@@ -68,6 +68,7 @@ const Testimonials = () => {
                             font-serif absolute bottom-0 right-0">
                                 ''
                           </p>
+                        </div>
                         </div>
                    ))}
                 </Slider>

@@ -10,8 +10,11 @@ const BrandLogo = () => {
     <>
     <div className='dark:bg-black-900 dark:text-white'></div>
     <div className='container py-12'>
-        <h1 className='text-center'>Powering next-gen companies</h1>
-    <div className='flex flex-wrap items-center
+        <h1 
+        data-aos="fade-up"
+        data-aos-delay="300"
+        className='text-center'>Powering next-gen companies</h1>
+    <div  data-aos="fade-up" className='flex flex-wrap items-center
     justify-evenly gap-3 py-6 md:px-32'>
       <img src={Brand1} alt='' />
       <img src={Brand2} alt='' />

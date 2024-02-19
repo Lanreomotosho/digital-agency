@@ -15,6 +15,7 @@ const BlogsData = [
         "The result has been incfredible, With the Power of Digital, it feels like they're in our trench, suppoting  and understanding us. They're like a partner and mentor in helping us get where we want to be. The results have been incredible.",
         author: "Someone",
         date: "April 22, 2022",
+        aosDelay: "300",
     },
     {
         id: 2,
@@ -24,6 +25,7 @@ const BlogsData = [
         "The result has been incfredible, With the Power of Digital, it feels like they're in our trench, suppoting  and understanding us. They're like a partner and mentor in helping us get where we want to be. The results have been incredible.",
         author: "Someone",
         date: "April 22, 2022",
+        aosDelay: "300",
     },
     {
         id: 3,
@@ -33,8 +35,9 @@ const BlogsData = [
         "The result has been incfredible, With the Power of Digital, it feels like they're in our trench, suppoting  and understanding us. They're like a partner and mentor in helping us get where we want to be. The results have been incredible.",
         author: "Someone",
         date: "April 22, 2022",
+        aosDelay: "500",
     },
-]
+];
 
 
 
@@ -44,7 +47,7 @@ const BlogsComp = () => {
     <div className='bg-gray-100 dark:bg-gray-900
     dark:text-white py-10 pb-14'>
         <div className='container'>
-            <h1 className='my-8 border-l-8 border-primary/50 py-2 pl-2
+            <h1 data-aos="fade-up" className='my-8 border-l-8 border-primary/50 py-2 pl-2
             text=3xl font-semibold'>Our Blogs</h1>
             {/* Blogs card */}
             <div className='grid grid-cols-1 md:grid-cols-2
@@ -53,7 +56,7 @@ const BlogsComp = () => {
                     <BlogCard key={blog.id} {...blog} />
                 ))}
         </div>
-        <div className='text-center'>
+        <div data-aos="fade-up" data-aos-offset="0" className='text-center'>
             <button className='btn-primary'>View All Posts</button>
         </div>
         </div>

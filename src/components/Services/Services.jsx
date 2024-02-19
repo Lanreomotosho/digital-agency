@@ -40,10 +40,10 @@ const Services = () => {
         <div className='container'>
             {/* header section */}
             <div className='pb-12 text-center space-y-3'>
-                <h1 className='text-3xl font-semibold
+                <h1  data-aos="fade-up" className='text-3xl font-semibold
                 text-violet-950 dark:text-primary'>
                     Explore Our Services</h1>
-                <p>
+                <p  data-aos="fade-up" data-aos-delay="300">
                     We are self-service data analytics software that lets you create visually.
                 </p>
                 </div>
@@ -51,10 +51,9 @@ const Services = () => {
 <div className='grid grid-cols-1 md:grid-cols-2
 xl:grid-cols-4 gap-4'>
     {skillsData.map((skill) => (
-        <div
-        key={skill.name}
-        data-aos="fade-up"
+        <div data-aos="fade-up"
         data-aos-delay={skill.aosDelay}
+        key={skill.name}
         className='Card space-y-3 sm:space-y-4 p-4'
         >
             <div>{skill.icon}</div>
@@ -66,7 +65,10 @@ xl:grid-cols-4 gap-4'>
     ))}
 </div>
 {/* button section */}
-<div className='text-center mt-4 sm:mt-8'>
+<div  data-aos="fade-up"
+data-aos-delay="900"
+data-aos-offset="0"
+className='text-center mt-4 sm:mt-8'>
 <button className='btn-primary'>Learn More</button>
 </div>
  </div>

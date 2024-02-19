@@ -19,10 +19,6 @@ const FooterLinks = [
         title: "Career",
         link: "/#career",
     },
-    {
-        title: "About",
-        link: "/#about",
-    },
 ];
 
 const HelpLinks = [
@@ -65,9 +61,8 @@ const Footer = () => {
         Digital Agency
     </h1>
     <p className='text-sm'>
-    Digital agency is a specialized firm that provides a wide array of services to help businesses establish and 
-    enhance their online presence. These agencies typically offer services such as web design and development, search engine optimization (SEO), social media marketing, content creation, digital advertising, 
-    email marketing, and more. By leveraging cutting-edge technology and industry expertise, digital agencies assist businesses in reaching their marketing goals and driving growth in the digital realm{""}
+    Digital agency is a specialized firm that provides a wide array of services to help businesses establish and enhance their online presence. These agencies typically offer services such as web design and development, search engine optimization (SEO), social media marketing, content creation, digital advertising, 
+    email marketing, and more. By leveraging cutting-edge technology and industry expertise, digital agencies assist businesses in reaching their marketing goals and driving growth in the digital realm
     </p>
     <br />
     {/* Social Handle */}
