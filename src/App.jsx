@@ -5,7 +5,6 @@ import BrandLogo from './components/BrandLogo/BrandLogo';
 import Services from './components/Services/Services';
 import Testimonials from './components/Testimonials/Testimonials';
 import BlogsComp from './components/BlogsComp/BlogsComp';
-import BlogCard from './components/BlogCard/BlogCard';
 import Footer from './components/Footer/Footer';
 
 
@@ -36,7 +35,6 @@ duration-300">
     <Services />
     <Testimonials />
     <BlogsComp />
-    <BlogCard />
     <Footer />
   </div>
   );

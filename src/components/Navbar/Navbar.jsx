@@ -3,6 +3,7 @@ import Logo from "../../assets/website/Logo.svg";
 import DarkMode from '../DarkMode/DarkMode';
 import ResponsiveMenu from './ResponsiveMenu';
 import {  HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
+import { BiExpandHorizontal } from 'react-icons/bi';
 
 
 
@@ -60,15 +61,17 @@ const Navbar = () => {
                 );
                 })}
                 <button className='btn-primary'>Get in Touch</button>
+
     </ul>
 </div>
 
   {/* Mobile View */}
-            <div className='flex items-center gap-4'>
+            <div className='flex items-center gap-4 md:hidden'>
             <DarkMode />
             <ResponsiveMenu />
             {showMenu ? (
-                    <HiMenuAlt1 onClick={toggleMenu}
+                    <HiMenuAlt1 
+                    onClick={toggleMenu}
                     className="cursor-pointer text-2xl" />
                 ):(
                     <HiMenuAlt3 onClick={toggleMenu}

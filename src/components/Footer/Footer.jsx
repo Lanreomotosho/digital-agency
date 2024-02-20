@@ -34,6 +34,10 @@ const HelpLinks = [
         title: "Terms & Conditions",
         link: "/#terms",
     },
+     {
+    title: "Privacy Policy",
+    link: "/#policy",
+  },
 ];
 
 const ResoursesLink = [
@@ -67,7 +71,7 @@ const Footer = () => {
     <br />
     {/* Social Handle */}
     <div className='flex items-center gap-4 mt-6'>
-        <a href='#'>
+        <a href='https://web.facebook.com/olanrewaju.omotosho.12/'>
             <FaFacebook className='text-2xl
             hover:text-primary duration-300' />
         </a>
@@ -79,7 +83,7 @@ const Footer = () => {
             <FaLinkedin className='text-2xl
             hover:text-primary duration-300' />
         </a>
-        <a href='#'>
+        <a href='https://twitter.com/Lanre__omotosho'>
             <FaTwitter className='text-2xl
             hover:text-primary duration-300' />
         </a>
