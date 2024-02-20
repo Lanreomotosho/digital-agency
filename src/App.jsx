@@ -35,6 +35,7 @@ duration-300">
     <Services />
     <Testimonials />
     <BlogsComp />
+    
     <Footer />
   </div>
   );

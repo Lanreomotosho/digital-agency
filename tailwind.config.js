@@ -1,11 +1,11 @@
-import DarkMode from './src/components/DarkMode/DarkMode';
+import DarkMode from './src/components/Navbar/DarkMode';
 
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",],
-    DarkMode: "class",
+    darkMode: "class",
   theme: {
     extend: {
       fontFamily: {

@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from "../../assets/website/Logo.svg";
-import DarkMode from '../DarkMode/DarkMode';
+import DarkMode from './DarkMode';
 import ResponsiveMenu from './ResponsiveMenu';
 import {  HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import { BiExpandHorizontal } from 'react-icons/bi';
