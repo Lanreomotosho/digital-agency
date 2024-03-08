@@ -8,7 +8,7 @@ const ResponsiveMenu = ({ showMenu }) => {
         <div
          className={`${
             showMenu ? "left-0" : "left-[-100%]"
-         } fixed bottom-0 top-0 w-[75%] transition-all
+         } border fixed bottom-0 top-0 w-[75%] transition-all
          duration-300 shadow-md  pt-16 px-8 bg-white dark:bg-gray-900 
         z-50 flex  flex-col justify-between pb-4`}>
             <div className="card">
@@ -38,7 +38,7 @@ const ResponsiveMenu = ({ showMenu }) => {
                   </nav>
                   {/* footer section */}
                   <div>
-                    <h1>
+                    <h1 className='absolute bottom-0 text-gray-400'>
                         Designed by {" "}
                         <a href="https://github.com/Lanreomotosho">Lanre Omotosho
                         </a>{""}

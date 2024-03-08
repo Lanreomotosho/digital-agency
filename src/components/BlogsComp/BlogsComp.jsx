@@ -22,7 +22,7 @@ const BlogsData = [
         image: Img2,
         title: "Realtime analytics",
         description:
-        "The result has been incredible, With the Power of Digital, it feels like they're in our trench, suppoting  and understanding us. They're like a partner and mentor in helping us get where we want to be. The results have been incredible.",
+        "The result has been  incredible, With the Power of Digital, it feels like they're in our trench, suppoting  and understanding us. They're like a partner and mentor in helping us get where we want to be. The results have been incredible.",
         author: "Someone",
         date: "April 22, 2022",
         aosDelay: "300",
